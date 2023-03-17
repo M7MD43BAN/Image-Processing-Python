@@ -29,7 +29,9 @@ def direct_mapping_0Order(image, factor):
 
     # Displaying the original and resized images using the imshow function of OpenCV
     cv2.imshow('Original Image', image)
+    print(image.shape)
     cv2.imshow('Resized', new_image)
+    print(new_image.shape)
 
     # hold the screen until user close it.
     cv2.waitKey(0)
