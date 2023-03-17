@@ -1,7 +1,7 @@
 import cv2
 
 # imread(): this method loads an image from the specified file
-img = cv2.imread("images/gumball.jpg")
+img = cv2.imread("/home/m7md43ban/Image Processing with Python/Codes/images/gumball.jpg")
 
 # Seeing the shape width and height and channels of the image using shape attribute.
 print(img.shape)

@@ -1,6 +1,6 @@
 import cv2
 
-mickey_img = cv2.imread("images/mickey.jpeg")
+mickey_img = cv2.imread("/home/m7md43ban/Image Processing with Python/Codes/images/mickey.jpeg")
 # Colors stores in the BGR format
 B, G, R = cv2.split(mickey_img)
 

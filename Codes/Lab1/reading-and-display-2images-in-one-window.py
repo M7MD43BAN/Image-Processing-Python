@@ -1,11 +1,11 @@
 import cv2
 import numpy as np
 
-cat_and_dog = cv2.imread("images/cat and dog.jpg")
-cat_and_dog2 = cv2.imread("images/cat and dog.jpg")
+cat_and_dog = cv2.imread("/home/m7md43ban/Image Processing with Python/Codes/images/cat and dog.jpg")
+cat_and_dog2 = cv2.imread("/home/m7md43ban/Image Processing with Python/Codes/images/cat and dog.jpg")
 
-gumball = cv2.imread("images/gumball.jpg")
-gumball2 = cv2.imread("images/gumball.jpg")
+gumball = cv2.imread("/home/m7md43ban/Image Processing with Python/Codes/images/gumball.jpg")
+gumball2 = cv2.imread("/home/m7md43ban/Image Processing with Python/Codes/images/gumball.jpg")
 
 # Display two images in the same window
 # concatenate image Horizontally
