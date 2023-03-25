@@ -25,7 +25,8 @@ def direct_mapping_0Order(image, factor):
     for k in range(channel):
         for i in range(row):
             for j in range(column):
-                new_image[i * factor + 1 - factor:i * factor, j * factor + 1 - factor:j * factor, k] = image[i, j, k]
+                new_image[i * factor + 1 - factor:i * factor + 1, j * factor + 1 - factor:j * factor + 1, k] = \
+                    image[i, j, k]
 
     # Displaying the original and resized images using the imshow function of OpenCV
     cv2.imshow('Original Image', image)
