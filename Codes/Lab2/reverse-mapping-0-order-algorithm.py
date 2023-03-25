@@ -3,7 +3,7 @@ import numpy as np
 
 
 ###############################################################################################
-# Create a function for Resizing Reverse Mapping: 1-Order algorithm
+# Create a function for Resizing Reverse Mapping: 0-Order algorithm
 # First parameter: Input image that will be resized
 # Second parameter: resizing factor along the horizontal axis
 # Third parameter: resizing factor along the vertical axis
