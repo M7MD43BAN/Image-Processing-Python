@@ -18,7 +18,7 @@ def direct_mapping_0Order(image, factor):
     # Creating a new matrix of zeros with the new dimensions of the resized image.
     # We use the zeros function of NumPy to create this new matrix.
     # We also specify the data type of the matrix as unsigned 8-bit integers using the dtype argument.
-    new_image = np.zeros((new_row, new_column, channel), dtype=np.uint8)
+    new_image = np.zeros([new_row, new_column, channel], dtype=np.uint8)
 
     # We iterate over each channel of the image using k
     # Then for each pixel in the image using i and j
