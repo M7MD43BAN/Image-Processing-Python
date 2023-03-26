@@ -61,5 +61,5 @@ def reverse_mapping_1Order(image, row_factor, column_factor):
 ###############################################################################################
 
 # imread(): this method loads an image from the specified file
-img = cv2.imread("/home/m7md43ban/Image Processing with Python/Codes/images/Powerpuff Girls.jpeg")
-reverse_mapping_1Order(img, 2, 3)
+img = cv2.imread("/home/m7md43ban/Image Processing with Python/Codes/images/3bears.jpeg")
+reverse_mapping_1Order(img, 1, 3)
